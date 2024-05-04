@@ -24,7 +24,7 @@ const app = express();
 
 // Use cors middleware
 app.use(cors({
-  origin: ['http://localhost:3000','https://property-prime.vercel.app/'], // Allow requests from this origin
+  origin: ['http://localhost:3000', 'https://property-prime.vercel.app'], // Allow requests from these origins
   credentials: true // Include credentials (cookies) in cross-origin requests
 }));
 
